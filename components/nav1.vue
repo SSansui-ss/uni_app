@@ -36,11 +36,11 @@
 				],
 			};
 		},
-		methods:{
-			Path(index){
+		methods: {
+			Path(index) {
 				console.log(index)
 				uni.navigateTo({
-					url:`${index}`
+					url: `${index}`
 				})
 			}
 		}
@@ -64,7 +64,8 @@
 		padding: 20rpx 0;
 		width: 25%;
 		text-align: center;
-		image{
+
+		image {
 			width: 60rpx;
 			height: 50rpx;
 		}
