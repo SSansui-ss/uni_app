@@ -1,0 +1,1 @@
+<view class="box"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="nav2"><view><image src="{{item.imgSrc}}"></image></view><view><text>{{item.title}}</text></view><view><image src="../static/image/more.png"></image></view></view></block></view>
