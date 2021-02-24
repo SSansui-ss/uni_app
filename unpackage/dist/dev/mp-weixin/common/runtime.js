@@ -105,11 +105,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"components/nav1":1,"components/nav2":1};
+/******/ 		var cssChunks = {"node-modules/@dcloudio/uni-ui/lib/uni-grid-item/uni-grid-item":1,"node-modules/@dcloudio/uni-ui/lib/uni-grid/uni-grid":1,"components/nav1":1,"components/nav2":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"components/nav1":"components/nav1","components/nav2":"components/nav2"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"node-modules/@dcloudio/uni-ui/lib/uni-grid-item/uni-grid-item":"node-modules/@dcloudio/uni-ui/lib/uni-grid-item/uni-grid-item","node-modules/@dcloudio/uni-ui/lib/uni-grid/uni-grid":"node-modules/@dcloudio/uni-ui/lib/uni-grid/uni-grid","components/nav1":"components/nav1","components/nav2":"components/nav2"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {

@@ -34,12 +34,17 @@
   top: 20rpx;
   right: 30rpx;
 }
-.top_add image {
-  width: 30rpx;
-  height: 30rpx;
+.top_add .top_icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
 }
-.top_add image:nth-of-type(1) {
-  margin-right: 50rpx;
+.top_add .ICon_f {
+  font-size: 50rpx;
+  color: #ffffff;
+}
+.top_add .ICon_f:nth-of-type(1) {
+  margin-right: 25rpx;
 }
 button {
   width: 94%;
@@ -96,5 +101,10 @@ button {
 .top_arr view:nth-of-type(3) image {
   width: 40rpx;
   height: 40rpx;
+}
+.TEXT {
+  width: 150rpx;
+  border: 1rpx solid #FFFFFF;
+  padding: 5rpx 0 5rpx 6rpx;
 }
 

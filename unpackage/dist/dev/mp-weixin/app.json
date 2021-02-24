@@ -7,7 +7,8 @@
     "pages/user/one",
     "pages/user/er",
     "pages/user/san",
-    "pages/user/si"
+    "pages/user/si",
+    "pages/login"
   ],
   "subPackages": [],
   "window": {
@@ -48,6 +49,5 @@
       }
     ]
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap55.json"
+  "usingComponents": {}
 }

@@ -1,0 +1,23 @@
+{
+  "id": "2377785",
+  "name": "uni_one",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7549362",
+      "name": "设置/管理",
+      "font_class": "RectangleCopy",
+      "unicode": "e6a2",
+      "unicode_decimal": 59042
+    },
+    {
+      "icon_id": "7549836",
+      "name": "对话",
+      "font_class": "RectangleCopy1",
+      "unicode": "e6a9",
+      "unicode_decimal": 59049
+    }
+  ]
+}
